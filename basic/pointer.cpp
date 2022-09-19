@@ -4,7 +4,7 @@
 using namespace std;
 
 
-int main()
+int test_pointer()
 {
     int x=1; //an integer is 4 blocks of memory
     // assign new memory address into var name "ptr"

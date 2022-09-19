@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-int Vector(){
+int test_Vector(){
     
     vector <int> vector1;
     vector <int> vector2;

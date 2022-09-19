@@ -7,7 +7,7 @@ Increment operator ++
 #include <iostream>
 using namespace std;
 
-int test(){
+int test_statement(){
     int counter {10};
     int result {0};
     

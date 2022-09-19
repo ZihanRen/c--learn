@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int size() {
+int test_size() {
     cout << "sizeof information of int -----------------------------------" << endl;
     
     cout << "char:" << sizeof(char) << " bytes\n";
