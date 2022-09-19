@@ -5,10 +5,11 @@ Notes:-
 • Use an appropriate datatype.
 • You must use only iostream library.
 */
+
 #include <iostream>
 using namespace std;
 
-int main(){
+int q3(){
     int dividend {};
     int divisor {};
     cout << "Please input divisor:";
