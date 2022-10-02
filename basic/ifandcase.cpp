@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+int if_test_conditon(){
     int num {};
     const int min {10};
     const int max {100};
@@ -48,7 +48,74 @@ int main(){
         cout << "They are equal" << endl;
         }
         
-    
     // nested if
-
+    int score {};
+    cout << "Enter your score on the exam (0-100):";
+    cin >> score;
+    char letter_grade {};
+    
+    if (score>=0 && score<=100){
+        cout << "Grade in range" << endl;
+        if (score>=90)
+            letter_grade = 'A';
+        else if (score>=80)
+            letter_grade='B';
+        else 
+            letter_grade = 'F';
+        cout << "Your grade is: " << letter_grade << endl;
+        
+        if (letter_grade=='F')
+            cout << "Sorry the score is not in the range" << endl;
+        else
+            cout << "Congrats for passing the exam" << endl;
+    }
+    
+    else{
+        cout << "Sorry the grade is not in the range" << endl;
+        
+    }
+    
+    // switch case
+    char letter_grade_test {};
+    
+    cout << "Enter the letter grade you expect on the exam: ";
+    cin>>letter_grade_test;
+    
+    switch(letter_grade_test){
+        case 'a':
+        case 'A':
+            cout << "You are above 90" << endl;
+            break;
+        case 'b':
+        case 'B':
+            cout<<"You need 80-89" << endl;
+            break;
+        case 'f':
+        case 'F':
+        {
+            char confirm {};
+            cout << "Are you sure? (N/Y)" << endl;
+            cin >> confirm;
+            if (confirm=='y'||confirm=='N')
+                cout << "OK you didn't study" << endl;
+            else if (confirm=='n'||confirm=='N')
+                cout << "OK you like studying" << endl;
+            else
+                cout<< "Invalid input" << endl;
+            break;
+            }
+        default:
+            cout<< "You are too low" << endl;
+    }
+    
+    
+    
+    // conditional operator
+    int input_num11 {};
+    cout << "Enter an integer:" << endl;
+    cin >> input_num11;
+    cout << input_num11 << "is " << ( (num%2==0)? "even":"odd" ) << endl; 
+    
+    
+    
 }
