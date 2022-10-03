@@ -121,16 +121,16 @@ int test_pointer_basic()
     // pointer to constant
     int const_1{100};
     int const_2{200};
-    const int pointer_to_const {&const_1};
+    const int *pointer_to_const {&const_1};
     // *score_ptr = 23; // error the pointer to const, which cannot be changed
     // score_ptr = &low_score //ok
     
-    int *const const_ptr {&const1}
+    int *const const_ptr {&const_1};
     //*const_ptr = 86 //ok
     //score_ptr = &const_2 //error : the pointer cannot be changed
     
     //obviously more strict format would be
-    const int *const const_ptr_to_const {&high_score};
+    const int *const const_ptr_to_const {&const_1};
     
     
     
