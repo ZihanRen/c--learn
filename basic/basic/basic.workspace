@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="basic" Database="" Version="10000">
+  <Project Name="basic1" Path="basic1/basic1.project" Active="No"/>
+  <Project Name="pointer" Path="../pointer/pointer/pointer.project" Active="No"/>
+  <Project Name="smartpointer" Path="../smartpointer/smartpointer/smartpointer.project" Active="No"/>
+  <Project Name="q1" Path="../../practice/p3/q1/q1/q1.project" Active="No"/>
+  <Project Name="q2" Path="../../practice/p3/q2/q2/q2.project" Active="Yes"/>
+  <Project Name="oop-submit" Path="../oop-submit/oop-submit/oop-submit.project"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="basic1" ConfigName="Debug"/>
+      <Project Name="pointer" ConfigName="Debug"/>
+      <Project Name="smartpointer" ConfigName="Debug"/>
+      <Project Name="practice" ConfigName="Debug"/>
+      <Project Name="q1" ConfigName="Debug"/>
+      <Project Name="q3" ConfigName="Debug"/>
+      <Project Name="practice" ConfigName="Debug"/>
+      <Project Name="q2" ConfigName="Debug"/>
+      <Project Name="oop-submit" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="basic1" ConfigName="Release"/>
+      <Project Name="pointer" ConfigName="Release"/>
+      <Project Name="smartpointer" ConfigName="Release"/>
+      <Project Name="practice" ConfigName="Release"/>
+      <Project Name="q1" ConfigName="Release"/>
+      <Project Name="q3" ConfigName="Release"/>
+      <Project Name="practice" ConfigName="Release"/>
+      <Project Name="q2" ConfigName="Release"/>
+      <Project Name="oop-submit" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

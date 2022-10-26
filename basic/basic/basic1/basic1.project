@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Project Name="cppbasic" Version="11000" InternalType="Console">
+<CodeLite_Project Name="basic1" Version="11000" InternalType="Console">
   <Description/>
   <Dependencies/>
   <Settings Type="Executable">
@@ -93,17 +93,27 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
-    <File Name="vector.cpp"/>
-    <File Name="varconst.cpp"/>
-    <File Name="test.cpp"/>
-    <File Name="string-num.cpp"/>
-    <File Name="size.cpp"/>
-    <File Name="operator.cpp"/>
-    <File Name="namespace.cpp"/>
-    <File Name="linkerr.cpp"/>
-    <File Name="err.cpp"/>
-    <File Name="basicIO.cpp"/>
-    <File Name="arrmultidim.cpp"/>
-    <File Name="arr.cpp"/>
+    <File Name="../../funcref.cpp"/>
+    <File Name="../../function.cpp"/>
+    <File Name="../../loop.cpp"/>
+    <File Name="../../ifandcase.cpp"/>
+    <File Name="../../pointer.cpp"/>
+    <File Name="../../logic-operator.cpp"/>
+    <File Name="../../test_for_equal.cpp"/>
+    <File Name="../../mixed_expression_conversion.cpp"/>
+    <File Name="../../statement.cpp"/>
+    <File Name="../../vector.cpp"/>
+    <File Name="../../varconst.cpp"/>
+    <File Name="../../string-num.cpp"/>
+    <File Name="../../size.cpp"/>
+    <File Name="../../operator.cpp"/>
+    <File Name="../../namespace.cpp"/>
+    <File Name="../../linkerr.cpp"/>
+    <File Name="../../err.cpp"/>
+    <File Name="../../basicIO.cpp"/>
+    <File Name="../../arrmultidim.cpp"/>
+    <File Name="../../arr.cpp"/>
   </VirtualDirectory>
+  <Dependencies Name="Debug"/>
+  <Dependencies Name="Release"/>
 </CodeLite_Project>
