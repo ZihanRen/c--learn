@@ -16,7 +16,7 @@ double *dist_all(double pt1 [],double pt2 [],double pt3 [],int size=3){
     *dist_arr = dist(pt1,pt2);
     *(dist_arr+1) = dist(pt1,pt3);
     *(dist_arr+2) = dist(pt2,pt3);
-    return dist_arr;/
+    return dist_arr;
 }
 
 // there are two ways to modify position in place: 
